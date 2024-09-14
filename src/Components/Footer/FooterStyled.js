@@ -36,6 +36,6 @@ export const FooterCode = styled.a`
     }
 
     .material-symbols-outlined {
-        margin-right: 8px; /* Espacio entre el icono y el texto */
+        margin-right: 0.5rem;
     }
 `;
