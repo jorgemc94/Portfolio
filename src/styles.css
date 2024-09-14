@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(13, 18, 36);
+  color: #FFF;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('fonts/CascadiaCode.woff2') format('woff2'),
+       url('fonts/CascadiaCode.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Cascadia Code', monospace;
+}
+
+root {
+  padding: 0em 2em;
+}
