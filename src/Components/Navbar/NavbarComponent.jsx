@@ -10,9 +10,7 @@ export const NavbarComponent = () => {
 
     return (
         <Navbar borderOpacity={1}>
-            <NavbarContent>
-                <NavbarTitle>&lt;Jorge /&gt;</NavbarTitle>
-            </NavbarContent>
+            <NavbarTitle>&lt;Jorge /&gt;</NavbarTitle>
             <NavbarContent>
                 <NavbarLink href="#sobremi" onClick={() => scrollToSection("sobremi")}>Sobre Mí</NavbarLink>
                 <NavbarLink href="#skills" onClick={() => scrollToSection("skills")}>Skills</NavbarLink>

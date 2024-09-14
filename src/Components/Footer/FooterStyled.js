@@ -10,7 +10,7 @@ export const Footer = styled.footer`
 
 export const FooterText = styled.p`
     font-size: 1.2em;
-    transform: translateX(35%);
+    transform: translateX(47%);
 `;
 
 export const FooterLink = styled.a`
@@ -25,7 +25,8 @@ export const FooterCode = styled.a`
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    transform: translateX(-300%);
+    margin-right: 5em;
+    transform: translateX(-135%);
 
     &:hover {
         color: rgb(22, 242, 179);
