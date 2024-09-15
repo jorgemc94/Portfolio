@@ -8,7 +8,6 @@ import { EstudiosComponent } from './Components/Estudios/EstudiosComponent';
 import { ExperienciaComponent } from './Components/Experiencia/ExperienciaComponent';
 import { ProyectosComponent } from './Components/Proyectos/ProyectosComponent';
 import { HeaderComponent } from './Components/Header/HeaderComponent';
-import { ContactoComponent } from './Components/Contacto/ContactoComponent';
 import { FooterComponent } from './Components/Footer/FooterComponent';
 import { ScrollToTopButton } from './Utils/ScrollToTopButton';
 
@@ -30,9 +29,6 @@ createRoot(document.getElementById('root')).render(
     </div>
     <div id="proyectos">
       <ProyectosComponent />
-    </div>
-    <div id="contacto">
-      <ContactoComponent />
     </div>
     <FooterComponent />
     <ScrollToTopButton />

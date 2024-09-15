@@ -42,27 +42,8 @@ export const NetworkIcon = styled.svg`
     }
 `
 
-export const Contact = styled.div`
-    padding-bottom: 1.5em;
-    display: flex;
-    gap: 2em;
-`
-
-export const ContactLink = styled.a`
-    text-decoration: none;
-`
-
-export const ContactButton = styled.button`
-    display: flex;
-    align-items: center;
-    padding: 1em 2em;
-    border-radius: 2em;
-    border-color: ${props => props.color ? '#6b56c6' : 'transparent'};
-    background: ${props => props.color ? 'transparent' : '#6b56c6'};
-    letter-spacing: 0.1em;
-
-    .material-symbols-outlined {
-        background-color: transparent;
-        margin-right: 0.5rem;
-    }
+export const NetworkButton = styled.button`
+    background: transparent;
+    border: none;
+    cursor: pointer;
 `
