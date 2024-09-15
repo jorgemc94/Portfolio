@@ -5,7 +5,7 @@ const scroll = keyframes`
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 `;
 
@@ -27,7 +27,7 @@ export const SkillContent = styled.div`
   display: flex;
   gap: 1.5em; // Espacio entre las cartas
   width: 200%; 
-  animation: ${scroll} 20s linear infinite; 
+  animation: ${scroll} 35s linear infinite; 
   &:hover {
     animation-play-state: paused; 
   }
