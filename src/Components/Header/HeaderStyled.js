@@ -20,7 +20,7 @@ export const ContentText = styled.p`
 `
 
 export const ContentTextColor = styled.span`
-    color: ${props => props.color ? 'rgb(22, 242, 179)' : 'rgb(219, 39, 119)'};
+    color: ${props => props.color ? '#9bd076' : '#6b56c6'};
 `
 
 export const Image = styled.article`
@@ -57,8 +57,8 @@ export const ContactButton = styled.button`
     align-items: center;
     padding: 1em 2em;
     border-radius: 2em;
-    border-color: ${props => props.color ? 'rgb(219, 39, 119)' : 'transparent'};
-    background: ${props => props.color ? 'transparent' : '#ec4899'};
+    border-color: ${props => props.color ? '#6b56c6' : 'transparent'};
+    background: ${props => props.color ? 'transparent' : '#6b56c6'};
     letter-spacing: 0.1em;
 
     .material-symbols-outlined {

@@ -16,7 +16,7 @@ export const NavbarContent = styled.div`
 
 export const NavbarTitle = styled.p`
     font-size: 1.4em;
-    color: rgb(22, 242, 179);
+    color: #9bd076;
 `;
 
 export const NavbarLink = styled.a`
@@ -26,6 +26,6 @@ export const NavbarLink = styled.a`
     font-size: 0.9em;
 
     &:hover {
-        color: rgb(219, 39, 119);
+        color: #6b56c6;
     }
 `;

@@ -10,6 +10,7 @@ import { ProyectosComponent } from './Components/Proyectos/ProyectosComponent';
 import { HeaderComponent } from './Components/Header/HeaderComponent';
 import { ContactoComponent } from './Components/Contacto/ContactoComponent';
 import { FooterComponent } from './Components/Footer/FooterComponent';
+import { ScrollToTopButton } from './Utils/ScrollToTopButton';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -34,5 +35,6 @@ createRoot(document.getElementById('root')).render(
       <ContactoComponent />
     </div>
     <FooterComponent />
+    <ScrollToTopButton />
   </StrictMode>
 );

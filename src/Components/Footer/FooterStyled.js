@@ -16,7 +16,7 @@ export const FooterText = styled.p`
 export const FooterLink = styled.a`
     cursor: pointer;
     text-decoration: none;
-    color: rgb(22, 242, 179);
+    color: #9bd076;
 `;
 
 export const FooterCode = styled.a`
@@ -29,10 +29,10 @@ export const FooterCode = styled.a`
     transform: translateX(-135%);
 
     &:hover {
-        color: rgb(22, 242, 179);
+        color: #9bd076;
 
         .material-symbols-outlined {
-            color: rgb(22, 242, 179);
+            color: #9bd076;
         }
     }
 

@@ -15,7 +15,7 @@ export const Title = styled.h1`
     transform:translateX(10%);
     margin-top: 3em;
     padding-bottom: 1.5em;
-    color: rgb(22, 242, 179);
+    color: #9bd076;
     font-size: 2em;
 `;
 

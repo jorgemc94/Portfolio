@@ -16,4 +16,5 @@
 body {
   font-size: 16px;
   font-family: 'Cascadia Code', monospace;
+  overflow-x: hidden;
 }
