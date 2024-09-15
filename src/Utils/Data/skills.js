@@ -17,6 +17,10 @@ const skillsData = {
         image: "./skills/docker.svg"
       },
       {
+        name: "Express",
+        image: "./skills/express.svg"
+      },
+      {
         name: "Figma",
         image: "./skills/figma.svg"
       },
@@ -45,12 +49,24 @@ const skillsData = {
         image: "./skills/mysql.svg"
       },
       {
+        name: "NodeJs",
+        image: "./skills/nodejs.svg"
+      },
+      {
         name: "PHP",
         image: "./skills/php.svg"
       },
       {
         name: "React",
         image: "./skills/react.svg"
+      },
+      {
+        name: "Redux",
+        image: "./skills/redux.svg"
+      },
+      {
+        name: "SASS",
+        image: "./skills/sass.svg"
       },
       {
         name: "TypeScript",
