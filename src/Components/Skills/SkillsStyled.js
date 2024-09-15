@@ -18,10 +18,9 @@ export const SkillSection = styled.section`
 `;
 
 export const SkillTitle = styled.h1`
-  padding: 1.5em 0em;
+  padding-top: 1.5em;
   color: #9bd076;
   font-size: 2em;
-  text-align: center;
 `;
 
 export const SkillContent = styled.div`
@@ -42,7 +41,7 @@ export const SkillCard = styled.article`
   text-align: center;
   background: rgb(37 33 59);
   padding: 1em;
-  margin: 2em;
+  margin: 1.5em;
   width: 9em;
   height: 7em;
   border: 0.1px solid rgba(59, 130, 246, .5);
