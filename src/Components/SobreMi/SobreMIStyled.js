@@ -17,6 +17,7 @@ export const Title = styled.h1`
     padding-bottom: 1.5em;
     color: #9bd076;
     font-size: 2em;
+    
 `;
 
 export const Text = styled.p`
