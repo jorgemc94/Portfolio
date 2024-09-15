@@ -2,63 +2,63 @@ const skillsData = {
     skills: [
       {
         name: "AWS",
-        image: "/public/skills/aws.svg"
+        image: "./skills/aws.svg"
       },
       {
         name: "Canva",
-        image: "/public/skills/canva.svg"
+        image: "./skills/canva.svg"
       },
       {
         name: "CSS",
-        image: "/public/skills/css.svg"
+        image: "./skills/css.svg"
       },
       {
         name: "Docker",
-        image: "/public/skills/docker.svg"
+        image: "./skills/docker.svg"
       },
       {
         name: "Figma",
-        image: "/public/skills/figma.svg"
+        image: "./skills/figma.svg"
       },
       {
         name: "Git",
-        image: "/public/skills/git.svg"
+        image: "./skills/git.svg"
       },
       {
         name: "HTML",
-        image: "/public/skills/html.svg"
+        image: "./skills/html.svg"
       },
       {
         name: "JavaScript",
-        image: "/public/skills/javascript.svg"
+        image: "./skills/javascript.svg"
       },
       {
         name: "Laravel",
-        image: "/public/skills/laravel.svg"
+        image: "./skills/laravel.svg"
       },
       {
         name: "MongoDB",
-        image: "/public/skills/mongoDB.svg"
+        image: "./skills/mongoDB.svg"
       },
       {
         name: "MySQL",
-        image: "/public/skills/mysql.svg"
+        image: "./skills/mysql.svg"
       },
       {
         name: "PHP",
-        image: "/public/skills/php.svg"
+        image: "./skills/php.svg"
       },
       {
         name: "React",
-        image: "/public/skills/react.svg"
+        image: "./skills/react.svg"
       },
       {
         name: "TypeScript",
-        image: "/public/skills/typescript.svg"
+        image: "./skills/typescript.svg"
       },
       {
         name: "Vite",
-        image: "/public/skills/vitejs.svg"
+        image: "./skills/vitejs.svg"
       }
     ]
   };
