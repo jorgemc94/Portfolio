@@ -1,4 +1,4 @@
-import { Header, Image, Content, ContentText, ContentTextColor, Network, NetworkIcon, NetworkButton} from "./HeaderStyled"
+import { Header, Content, ContentText, ContentTextColor, Network, NetworkIcon, NetworkButton, ImageContent} from "./HeaderStyled"
 
 
 export const HeaderComponent = () => {
@@ -43,9 +43,7 @@ export const HeaderComponent = () => {
                         </a> 
                     </Network>
                 </Content>
-                <Image>
-                   <img src="./header.png" />
-                </Image>
+                <ImageContent style={{ backgroundImage: `url('./header.png')` }}></ImageContent>
             </Header>
         </>
     )

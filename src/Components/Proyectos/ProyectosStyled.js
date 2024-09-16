@@ -72,6 +72,7 @@ export const StackContent = styled.div`
   gap: 5px;
   background: inherit;
   cursor: pointer;
+  overflow: hidden;
 `;
 
 export const StackImagen = styled.img`

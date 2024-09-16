@@ -23,11 +23,14 @@ export const ContentTextColor = styled.span`
     color: ${props => props.color ? '#9bd076' : '#6b56c6'};
 `
 
-export const Image = styled.article`
+export const ImageContent = styled.div`
     width: 100%;
-    display: flex;
-    justify-self: end;
+    min-height: 100%;
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;  
 `;
+
 
 export const Network = styled.div`
     padding: 2.5em 0em;
