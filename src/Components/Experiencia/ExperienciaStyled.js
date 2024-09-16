@@ -33,6 +33,7 @@ export const ExperienciaCard = styled.article`
   transition: transform 0.3s ease;
   transform-origin: center;
   transform: scale(0.95);
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.05);
