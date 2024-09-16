@@ -18,11 +18,11 @@ createRoot(document.getElementById('root')).render(
     <div id="sobremi">
       <SobreMiComponent />
     </div>
-    <div id="skills">
-      <SkillsComponent />
-    </div>
     <div id="estudios">
       <EstudiosComponent />
+    </div>
+    <div id="skills">
+      <SkillsComponent />
     </div>
     <div id="experiencia">
       <ExperienciaComponent />

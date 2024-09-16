@@ -44,7 +44,7 @@ export const SkillCard = styled.article`
   margin: 1.5em;
   width: 9em;
   height: 7em;
-  border: 0.1px solid rgba(59, 130, 246, .5);
+  border: 0.1px solid #6b56c6;
   transition: transform 0.3s ease;
   &:hover {
     transform: scale(1.2); 

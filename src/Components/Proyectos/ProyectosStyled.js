@@ -15,17 +15,17 @@ export const TitleSection = styled.h1`
   color: #9bd076;
 `;
 
-export const ProyectoContent = styled.article`
+export const ProyectoContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
   gap: 3em;
   overflow: visible;
 `;
 
-export const ProyectoCard = styled.div`
+export const ProyectoCard = styled.article`
   background: rgb(37 33 59);
   border-radius: 0.5em;
-  border: 0.1px solid rgba(59, 130, 246, 0.5);
+  border: 0.1px solid #6b56c6;
   padding: 1.5em;
   transition: transform 0.3s ease;
   transform-origin: center;
