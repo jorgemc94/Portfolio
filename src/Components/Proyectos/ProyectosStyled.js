@@ -22,7 +22,7 @@ export const ProyectoContent = styled.article`
 `;
 
 export const ProyectoCard = styled.div`
-  
+  background: rgb(37 33 59);
   border-radius: 0.5em;
   border: 0.1px solid rgba(59, 130, 246, .5);
   padding: 1.5em;
@@ -39,12 +39,14 @@ export const ProyectoTitle = styled.h2`
   padding-top: 1.5em;
   padding-bottom: 0.8em;
   text-align: center;
+  background: inherit;
 `;
 
 export const ProyectoDescripcion = styled.p`
     padding-bottom: 1.5em;
     line-height: 1.5;
     font-size: 1.3em;
+    background: inherit;
 `
 
 export const SkillContent = styled.div`
@@ -52,7 +54,7 @@ export const SkillContent = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1.5em;
-  background: transparent;
+  background: inherit;
 `;
 
 export const StackContent = styled.div`
@@ -60,22 +62,25 @@ export const StackContent = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  background: transparent;
+  background: inherit;
 `;
 
 export const StackImagen = styled.img`
   width: 3em;
   height: 3em;
+  background: inherit;
 `;
 
 export const StackName = styled.span`
   font-size: 1.2em;
+  background: inherit;
 `;
 
 export const ContentLink = styled.div`
     display: flex;
     justify-content: space-around;
     padding-top: 1.5em;
+    background: inherit;
 `
 
 export const ProyectoLink = styled.a`
