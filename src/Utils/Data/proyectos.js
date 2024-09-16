@@ -2,56 +2,6 @@
 export const proyectosData = {
     proyectos: [
         {
-            proyecto: "Oxygen Shop",
-            descripción: 'Una landing page con diversas funcionalidades, además de una integración de API para la conversión de precios.',
-            stack: [
-                {
-                    "name": "HTML",
-                    "image": "./skills/html.svg"
-                },
-                {
-                    "name": "CSS",
-                    "image": "./skills/css.svg"
-                },
-                {
-                    "name": "JavaScript",
-                    "image": "./skills/javascript.svg"
-                }
-            ],
-            imagen: './proyectos/oxygenshop.png',
-            codigo: 'https://github.com/jorgemc94/OXYGEN-Shop',
-            despliegue: 'https://jorgemc94.github.io/OXYGEN-Shop/'
-        },
-        {
-            proyecto: "Gallery Photos",
-            descripción: 'Una aplicación de fotos de stock en React/Redux con integración de API y una interfaz limpia y minimalista.',
-            stack: [
-                {
-                    "name": "HTML",
-                    "image": "./skills/html.svg"
-                },
-                {
-                    "name": "CSS",
-                    "image": "./skills/css.svg"
-                },
-                {
-                    "name": "JavaScript",
-                    "image": "./skills/javascript.svg"
-                },
-                {
-                    "name": "React",
-                    "image": "./skills/react.svg"
-                },
-                {
-                    "name": "Redux",
-                    "image": "./skills/redux.svg"
-                }
-            ],
-            imagen: './proyectos/galleryphotos.png',
-            codigo: 'https://github.com/jorgemc94/Project-Gallery-Photos',
-            despliegue: 'http://galleryphotos-jmc.s3-website.eu-west-3.amazonaws.com/'
-        },
-        {
             proyecto: "Hotel Miranda",
             descripción: 'Sitio web responsive para el lujoso Hotel Miranda, con gran enfoque en los detalles visuales y una fluida experiencia de usuario.',
             stack: [
@@ -108,6 +58,59 @@ export const proyectosData = {
             imagen: './proyectos/hmdashboard.png',
             codigo: 'https://github.com/jorgemc94/Hotel-Miranda-Dashboard',
             despliegue: 'http://hotelmiranda-dashboard-jmc.s3-website.eu-west-3.amazonaws.com/'
-        }
+        },
+        
+        {
+            proyecto: "Gallery Photos",
+            descripción: 'Una aplicación de fotos de stock en React/Redux con integración de API y una interfaz limpia y minimalista.',
+            stack: [
+                {
+                    "name": "HTML",
+                    "image": "./skills/html.svg"
+                },
+                {
+                    "name": "CSS",
+                    "image": "./skills/css.svg"
+                },
+                {
+                    "name": "JavaScript",
+                    "image": "./skills/javascript.svg"
+                },
+                {
+                    "name": "React",
+                    "image": "./skills/react.svg"
+                },
+                {
+                    "name": "Redux",
+                    "image": "./skills/redux.svg"
+                }
+            ],
+            imagen: './proyectos/galleryphotos.png',
+            codigo: 'https://github.com/jorgemc94/Project-Gallery-Photos',
+            despliegue: 'http://galleryphotos-jmc.s3-website.eu-west-3.amazonaws.com/'
+        },
+        {
+            proyecto: "Oxygen Shop",
+            descripción: 'Una landing page con diversas funcionalidades, además de una integración de API para la conversión de precios.',
+            stack: [
+                {
+                    "name": "HTML",
+                    "image": "./skills/html.svg"
+                },
+                {
+                    "name": "CSS",
+                    "image": "./skills/css.svg"
+                },
+                {
+                    "name": "JavaScript",
+                    "image": "./skills/javascript.svg"
+                }
+            ],
+            imagen: './proyectos/oxygenshop.png',
+            codigo: 'https://github.com/jorgemc94/OXYGEN-Shop',
+            despliegue: 'https://jorgemc94.github.io/OXYGEN-Shop/'
+        },
+        
+        
     ]
 };

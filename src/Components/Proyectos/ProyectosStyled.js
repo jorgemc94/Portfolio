@@ -5,7 +5,7 @@ export const ProyectoSection = styled.section`
   margin: 0 auto;
   margin-top: 5em;
   border-top: 1px solid rgba(37, 33, 59, ${(props) => props.borderOpacity || 1});
-  overflow: hidden;
+  overflow: visible;
 `;
 
 export const TitleSection = styled.h1`
@@ -17,15 +17,23 @@ export const TitleSection = styled.h1`
 
 export const ProyectoContent = styled.article`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 50%);
   gap: 3em;
+  overflow: visible;
 `;
 
 export const ProyectoCard = styled.div`
   background: rgb(37 33 59);
   border-radius: 0.5em;
-  border: 0.1px solid rgba(59, 130, 246, .5);
+  border: 0.1px solid rgba(59, 130, 246, 0.5);
   padding: 1.5em;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  transform: scale(0.95);
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const ProyectoImagen = styled.img`
@@ -63,6 +71,7 @@ export const StackContent = styled.div`
   align-items: center;
   gap: 5px;
   background: inherit;
+  cursor: pointer;
 `;
 
 export const StackImagen = styled.img`

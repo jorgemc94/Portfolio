@@ -21,13 +21,14 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-    line-height: 1.3;
+    line-height: 1.5;
     font-size: 1.2em;
 `
 
 export const Imagen = styled.img`
     border-radius: 2em;
-    width: 50%;
+    width: 18em;
+    height: 18em;
     filter: grayscale(100%);
     transition: all 0.3s ease;
 
@@ -41,4 +42,5 @@ export const Imagen = styled.img`
 export const ContentImage = styled.div`
     display:flex;
     justify-content: center;
+    align-items: center
 `
