@@ -36,10 +36,11 @@ export const ProyectoCard = styled.article`
   }
 `;
 
-export const ProyectoImagen = styled.img`
+export const ProyectoVideo = styled.video`
   width: 100%;
   height: auto;
   border-radius: 8px 8px 0 0;
+  cursor: pointer;
 `;
 
 export const ProyectoTitle = styled.h2`
@@ -71,7 +72,6 @@ export const StackContent = styled.div`
   align-items: center;
   gap: 5px;
   background: inherit;
-  cursor: pointer;
   overflow: hidden;
 `;
 

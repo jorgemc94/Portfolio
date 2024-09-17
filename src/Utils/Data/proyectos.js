@@ -22,7 +22,7 @@ export const proyectosData = {
                     "image": './skills/javascript.svg'
                 }
             ],
-            imagen: './proyectos/hotelmiranda.png',
+            video: './proyectos/miranda.mp4',
             codigo: 'https://github.com/jorgemc94/Hotel-Miranda',
             despliegue: 'https://jorgemc94.github.io/Hotel-Miranda/'
         },
@@ -55,7 +55,7 @@ export const proyectosData = {
                     "image": "./skills/typescript.svg"
                 }
             ],
-            imagen: './proyectos/hmdashboard.png',
+            video: './proyectos/dashboard.mp4',
             codigo: 'https://github.com/jorgemc94/Hotel-Miranda-Dashboard',
             despliegue: 'http://hotelmiranda-dashboard-jmc.s3-website.eu-west-3.amazonaws.com/'
         },
@@ -85,7 +85,7 @@ export const proyectosData = {
                     "image": "./skills/redux.svg"
                 }
             ],
-            imagen: './proyectos/galleryphotos.png',
+            video: './proyectos/photos.mp4',
             codigo: 'https://github.com/jorgemc94/Project-Gallery-Photos',
             despliegue: 'http://galleryphotos-jmc.s3-website.eu-west-3.amazonaws.com/'
         },
@@ -106,7 +106,7 @@ export const proyectosData = {
                     "image": "./skills/javascript.svg"
                 }
             ],
-            imagen: './proyectos/oxygenshop.png',
+            video: './proyectos/oxygen.mp4',
             codigo: 'https://github.com/jorgemc94/OXYGEN-Shop',
             despliegue: 'https://jorgemc94.github.io/OXYGEN-Shop/'
         },
