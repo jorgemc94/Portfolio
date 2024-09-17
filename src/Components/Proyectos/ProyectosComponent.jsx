@@ -17,13 +17,23 @@ export const ProyectosComponent = () => {
         }
     };
 
+    const handleVideoClick = (url) => {
+        window.open(url, '_blank');
+    };
+
     return (
         <ProyectoSection borderOpacity={1}>
             <TitleSection>Proyectos</TitleSection>
             <ProyectoContent>
                 {proyectosData.proyectos.map((proyecto, index) => (
-                    <ProyectoCard key={index} id={`proyecto-card-${index}`}onMouseOver={() => handleMouseOver(index)}onMouseOut={() => handleMouseOut(index)} >
-                        <ProyectoVideo id={`video-${index}`} muted loopstyle={{ width: '100%', height: 'auto' }}>
+                    <ProyectoCard key={index} id={`proyecto-card-${index}`} onMouseOver={() => handleMouseOver(index)} onMouseOut={() => handleMouseOut(index)}>
+                        <ProyectoVideo
+                            id={`video-${index}`}
+                            muted
+                            loop
+                            style={{ width: '100%', height: 'auto' }}
+                            onClick={() => handleVideoClick(proyecto.despliegue)}
+                        >
                             <source src={proyecto.video} type="video/mp4" />
                         </ProyectoVideo>
                         <ProyectoTitle>{proyecto.proyecto}</ProyectoTitle>
